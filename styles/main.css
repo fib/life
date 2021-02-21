@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+	font-family: 'Ubuntu Mono', monospace;
+}
+
+button {
+	background: white;
+	border: 3px solid black;
+
+	font-size: 1.2rem;
+
+	transition: all 0.1s ease-out;
+}
+
+button:hover {
+	background: black;
+	color: white;
+	cursor: pointer;
+}
+
+#controls {
+	display: grid;
+	grid-template-columns: 1fr;
+
+	margin: 5% 5%;
+}
+
+.title {
+	font-size: 4rem;
+
+	margin-top: 0;
+}
+
+.subtitle {
+	font-size: 1.5rem;
+
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.text {
+	font-size: 1.2rem;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.pane {
+	padding: 5%;
+}
+
+.pane-2 {
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-items: center;
+}
+
+.slider {
+	display: grid;
+	grid-template-columns: 1fr 5fr 1fr;
+	justify-items: center;
+
+	margin: 2% 15% 0 5%;
+}
+
+.btns {
+	display: grid;
+	grid-template-columns: 2fr 2fr 2fr;
+	justify-items: center;
+
+	margin: 10% 15% 0 5%;
+}
+
+.playback-controls {
+	display: grid;
+	grid-template-columns: 2fr 2fr 2fr;
+	justify-items: center;
+
+	width: 40%;
+	margin-top: 4%;
+}
+
+.playback-controls > button {
+	padding: 3%;
+}
+
+.icon {
+	width: 16px;
+}
